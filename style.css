@@ -193,13 +193,14 @@ text-align: center;
 padding: 10px 20px;
 text-decoration: none;
 font-size: 17px;
-
+transition: border-color 0.5s, background-color 0.5s, color 0.2s
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
 background-color: var(--pink);
 color: rgb(255, 255, 255);
+
 /*border-bottom:6px solid var(--pink);*/
 }
 .navbar a.active {
